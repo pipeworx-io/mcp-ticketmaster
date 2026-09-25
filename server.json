@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ticketmaster",
   "title": "Ticketmaster",
   "description": "Ticketmaster Discovery v2 MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ticketmaster",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ticketmaster",
