@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ticketmaster",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ticketmaster Discovery v2 MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ef42f4840aab07ddd654c73697a0ca4ed9deef6aeddd1233b3f1f2ac69c034c3",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-60bac90d97f9431a2e5e5e7ecb2c910e119b0d2b236bcfcb32b67a45461ecd05",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
