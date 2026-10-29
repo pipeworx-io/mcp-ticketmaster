@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ticketmaster",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Ticketmaster Discovery v2 MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ticketmaster": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ticketmaster"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ticketmaster.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ticketmaster",
   "pipeworx": {
-    "sourceHash": "v1-60bac90d97f9431a2e5e5e7ecb2c910e119b0d2b236bcfcb32b67a45461ecd05",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "ticketmaster",
+    "gatewaySlug": "ticketmaster",
+    "sourceHash": "v1-b650c239b1044c674a6af0bf256293d402ca07bb7b97c0e85780b7f6a1d0dff0",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
